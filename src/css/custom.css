@@ -16,6 +16,28 @@ body {
     min-width: 1.8rem;
     min-height: 1.8rem;
 }
+.icon-chosen {
+    background-size: 100% 100%;
+    border: 0;
+    width: 1.1rem;
+    height: 1.1rem;
+    min-width: 1.1rem;
+    min-height: 1.1rem;
+}
+.navigation-icons {
+    color: white;
+}
+
+.btn-stake {
+    text-decoration: underline;
+    padding-right: 1em;
+    width: 6.2em;
+}
+
+.table td, .table th {
+    padding: .40rem;
+    vertical-align: middle;
+}
 
 /*.supply-balance-details {*/
 /*    margin-top: -17em;*/
