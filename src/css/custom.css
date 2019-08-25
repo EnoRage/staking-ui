@@ -1,0 +1,24 @@
+body {
+    background-color: #f5f7f8;
+}
+
+.top-blue {
+    height: 125px;
+    background: #295686;
+    position: absolute;
+}
+
+.icon {
+    background-size: 100% 100%;
+    border: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    min-width: 1.8rem;
+    min-height: 1.8rem;
+}
+
+/*.supply-balance-details {*/
+/*    margin-top: -17em;*/
+/*    box-shadow: none;*/
+/*    height: 50px;*/
+/*}*/
