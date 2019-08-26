@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Staking</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <link href="src/css/custom.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="top-blue container-fluid"></div>
+<div class="container pt-4">
+    <div class="row small">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body p-2">
+                    <div class="d-flex justify-content-between">
+                        <span>Supply Balance</span>
+                        <span>$12345678910</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 pt-4">
+            <div class="card">
+                <div class="card-body p-2">
+                    <h6 class="card-title"> Staking</h6>
+                    <table class="table">
+                        <tbody>
+                        <tr id="Cosmos">
+                            <th scope="row"><img class="icon" src="src/cosmos.png"></th>
+                            <td>Cosmos</td>
+                            <td>11%</td>
+                            <td>17777 ATOM</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row small">
+        <div class="col-12 pt-4">
+            <div class="card">
+                <div class="card-body p-2">
+                    <h6 class="card-title"> Blockhains</h6>
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <th scope="row"><img class="icon"
+                                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NyIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDQ3IDY0Ij48cGF0aCBmaWxsPSIjMkM3REY3IiBkPSJNMzAuMjUyIDYzLjQ0MWMtNC41NSAwLTcuODY0LTEuMDg5LTkuOTQ2LTMuMjY3LTIuMDgtMi4xNzctMy4xMjEtNC41MjUtMy4xMjEtNy4wNDEgMC0uOTIuMTgxLTEuNjk0LjU0NC0yLjMyM2EzLjk5MyAzLjk5MyAwIDAgMSAxLjQ4OS0xLjQ4OWMuNjI5LS4zNjMgMS40MDMtLjU0NCAyLjMyMy0uNTQ0LjkyIDAgMS42OTMuMTgxIDIuMzIzLjU0NC42MjkuMzYzIDEuMTI1Ljg2IDEuNDg4IDEuNDg5LjM2My42MjkuNTQ0IDEuNDAzLjU0NCAyLjMyMyAwIDEuMTEzLS4yNjYgMi4wMi0uNzk4IDIuNzIyLS41MzMuNzAyLTEuMTYyIDEuMTYxLTEuODg4IDEuMzguNjMuODcgMS42MjIgMS40ODcgMi45NzcgMS44NSAxLjM1NS4zODggMi43MS41ODEgNC4wNjUuNTgxIDEuODg3IDAgMy41OTMtLjUwOCA1LjExOC0xLjUyNCAxLjUyNC0xLjAxNyAyLjY1LTIuNTE3IDMuMzc2LTQuNTAxLjcyNi0xLjk4NCAxLjA4OS00LjIzNSAxLjA4OS02Ljc1MiAwLTIuNzM0LS40LTUuMDctMS4xOTgtNy4wMDUtLjc3NS0xLjk2LTEuOTI0LTMuNDEyLTMuNDQ5LTQuMzU2YTkuMjEgOS4yMSAwIDAgMC00LjkzNi0xLjQxNWMtMS4xNjIgMC0yLjYxMy40ODQtNC4zNTYgMS40NTJsLTMuMTk0IDEuNTk3di0xLjU5N0wzNy4wNzYgMTYuNEgxNy4xODV2MTkuODljMCAxLjY0Ni4zNjMgMy4wMDEgMS4wODkgNC4wNjZzMS44MzkgMS41OTcgMy4zNCAxLjU5N2MxLjE2IDAgMi4yNzQtLjM4NyAzLjMzOS0xLjE2MmExMS44MDMgMTEuODAzIDAgMCAwIDIuNzU4LTIuODNjLjA5Ny0uMjE5LjIxOC0uMzc2LjM2My0uNDczYS43MjMuNzIzIDAgMCAxIC40NzItLjE4MWMuMjY2IDAgLjU4LjEzMy45NDQuNC4zMzkuMzg2LjUwOC44MzQuNTA4IDEuMzQyYTkuMjQzIDkuMjQzIDAgMCAxLS4xODIgMS4wMTdjLS44MjIgMS44MzktMS45NiAzLjI0Mi0zLjQxMiA0LjIxYTguNDU3IDguNDU3IDAgMCAxLTQuNzkgMS40NTJjLTQuMzA4IDAtNy4yODUtLjg0Ny04LjkzLTIuNTQtMS42NDUtMS42OTUtMi40NjgtMy45OTQtMi40NjgtNi44OTdWMTYuNEguMDUydi0zLjcwM2gxMC4xNjR2LTguNDJMNy44OTMgMS45NTJWLjA2Nmg2Ljc1MWwyLjU0IDEuMzA2djExLjMyNWwyNi4yOC0uMDcyIDIuNjE0IDIuNjEzLTE2LjExNiAxNi4xMTZhMTAuODA3IDEwLjgwNyAwIDAgMSAzLjA0OS0uNzI2YzEuNzQyIDAgMy43MDIuNTU3IDUuODggMS42NyAyLjIwMiAxLjA4OSAzLjg5NiAyLjU5IDUuMDgxIDQuNSAxLjE4NiAxLjg4OCAxLjk0OCAzLjcwMyAyLjI4NyA1LjQ0NS4zNjMgMS43NDMuNTQ1IDMuMjkxLjU0NSA0LjY0NiAwIDMuMDk4LS42NTQgNS45NzctMS45NiA4LjY0LTEuMzA3IDIuNjYxLTMuMjkxIDQuNjQ1LTUuOTUzIDUuOTUyLTIuNjYyIDEuMzA3LTUuNTQyIDEuOTYtOC42MzkgMS45NnoiLz48L3N2Zz4="
+                                                 alt="logo"></th>
+                            <td>Tezos</td>
+                            <td>13%</td>
+                            <td>17777 XZT</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img class="icon"
+                                                 src="https://assets.trustwalletapp.com/blockchains/vechain/info/logo.png">
+                            </th>
+                            <td>VeChain</td>
+                            <td>1%</td>
+                            <td>1777 VET</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script>
+        $("#Cosmos").on("click", () => {
+            window.location.href = "http://localhost:63342/tests/listOfStakers.html?_ijt=rjfb0hn5v74j1bn2feq5lv4v5o#"
+        })
+</script>
+</html>
