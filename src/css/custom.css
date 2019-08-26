@@ -8,6 +8,14 @@ body {
     position: absolute;
 }
 
+.icon-trust {
+    background-size: 100% 100%;
+    border: 0;
+    width: 1.7rem;
+    height: 1.7rem;
+    min-width: 1.7rem !important;
+    min-height: 1.7rem !important;
+}
 .icon {
     background-size: 100% 100%;
     border: 0;
@@ -18,12 +26,15 @@ body {
 }
 
 .icon-chosen {
+    vertical-align: middle;
+    margin-bottom: 4px;
+    text-align: center;
     background-size: 100% 100%;
     border: 0;
-    width: 1.3rem;
-    height: 1.3rem;
-    min-width: 1.3rem;
-    min-height: 1.3rem;
+    width: 1rem;
+    height: 1rem;
+    min-width: 1rem;
+    min-height: 1rem;
 }
 
 .navigation-icons {
@@ -37,7 +48,8 @@ body {
 }
 
 .table td, .table th {
-    padding: .40rem;
+    font-size: 16px;
+    padding: .49rem;
     vertical-align: middle;
 }
 
@@ -51,6 +63,10 @@ body {
     margin-right: 0.2em;
 }
 
+.balanceAmount {
+    font-size: 17px;
+    vertical-align: middle;
+}
 /*.supply-balance-details {*/
 /*    margin-top: -17em;*/
 /*    box-shadow: none;*/
